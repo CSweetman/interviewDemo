@@ -1,0 +1,69 @@
+tr {
+  border-bottom: solid rgb(206, 203, 203);
+  border-width: 3px 0;
+}
+tr:last-child {
+  border-width: 8px 0;
+}
+
+td {
+  padding: 3vh 0;
+}
+
+th {
+  padding: 2vh 0;
+  color: white;
+}
+
+.banner {
+  padding: 8% 0% 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url(../assets/fruits3.jpg);
+  background-repeat: no-repeat;
+  /* width: 100vw; */
+}
+
+.title {
+  font-size: 16px;
+  color: white;
+  width: 40%;
+  padding-left: 5%;
+}
+
+.headRow {
+  background-color: #a8133e;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.id {
+  font-weight: bold;
+}
+
+.row {
+  text-align: center;
+}
+
+.buttons {
+  padding-top: 90px;
+  padding-right: 150px;
+}
+
+.btn {
+  border: 1px outset gray;
+  background-color: lightgray;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  margin: 0 7px;
+}
+
+.btn:hover {
+  background-color: gray;
+  color: white;
+}
